@@ -8,7 +8,8 @@ on:
       -master
 
 jobs:
-  hello-world: run-on ubuntu-20.04
+  hello-world:
+  run-on ubuntu-20.04
 
 steps:
   - name: Say hello world
