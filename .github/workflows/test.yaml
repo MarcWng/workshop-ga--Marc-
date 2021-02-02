@@ -12,5 +12,5 @@ jobs:
     run-on: ubuntu-20.04
     steps:
       - name: Say hello world
-        shell: bash
+        shell: bass
         run: echo Welcome to the github
