@@ -10,6 +10,7 @@ on:
 jobs:
   hello-world:
   run-on ubuntu-20.04
+
     steps:
     - name: Say hello world
       shell: bash
