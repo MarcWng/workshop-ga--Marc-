@@ -8,10 +8,10 @@ on:
       -master
 
 jobs:
-  hello-world:
+hello-world:
     run-on ubuntu-20.04
 
-  steps:
-    - name: Say hello world
-      shell: bash
-      run: echo Welcome to the github
+steps:
+  - name: Say hello world
+    shell: bash
+    run: echo Welcome to the github
